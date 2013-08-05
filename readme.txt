@@ -1,6 +1,5 @@
 ﻿=== Plugin Name ===
-Contributors: touchdata
-Donate link: http://touchdata.net
+Contributors: hackbard23
 Tags: contact form, contact form 7, contact, form
 Requires at least: 3.5
 Tested up to: 3.6
