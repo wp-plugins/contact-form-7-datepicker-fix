@@ -1,5 +1,5 @@
 ﻿=== Plugin Name ===
-Contributors: hackbard23
+Contributors: Hackbard23
 Tags: contact form, contact form 7, contact, form
 Requires at least: 3.5
 Tested up to: 3.6
