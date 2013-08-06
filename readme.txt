@@ -35,10 +35,13 @@ none
 
 == Changelog ==
 
-Feature:
+Feature 2.0:
 #1 Added the Spinner function for Contact Form 7 number Fields 
 
-Fix:
+Fix 2.1:
+#1 added jquery spinner js files
+
+Fix 2.0:
 #1 Fix the Selector, only Contact Form 7 Forms with class "wpcf7-date" will be transformed
 
 == Upgrade Notice ==
