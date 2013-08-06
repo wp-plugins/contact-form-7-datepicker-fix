@@ -3,8 +3,9 @@
 Plugin Name: Contact Form 7 IE DatePicker and Number Spinner Fix
 Description: Add the DatePicker and Number Spinner functionality to the Internet Explorer in Contact Form 7
 Version: 2.1
-Author: Benjamin Klein Author
-URI: http://touchdata.net License: GPL2
+Author: Benjamin Klein
+Author URI: http://touchdata.net
+License: GPL2
 */
 function td_dp_script() {
 	/* register own scripts */
