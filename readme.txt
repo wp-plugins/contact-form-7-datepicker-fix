@@ -23,7 +23,7 @@ If you have Questions or Feature Request, feel free and contact me.
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Preview Form
 5. Edit your css file and overwrite Plugin settings
-6. you have to use "<?php wp_footer(); ?>" so this Plugins works
+6. you have to use `<?php wp_footer(); ?>` in your Theme so this Plugins works
 
 == Frequently Asked Questions ==
 
