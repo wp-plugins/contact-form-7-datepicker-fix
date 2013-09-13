@@ -1,4 +1,12 @@
 jQuery(document).ready(function($) {
+	function isInternetExplorer() {
+		var isMSIE = eval("/*@cc_on!@*/0");
+		var isMSIE2 = ('\v' == 'v');
+		
+		return (isMSIE || isMSIE2);
+	};
+	
+	
 	function addSpinnerToObject(object) {
 		var options = {};
 		var min = object.attr('min');
@@ -20,7 +28,7 @@ jQuery(document).ready(function($) {
 		object.spinner(options);
 	}
 
-	if ($.browser.msie) {
+	if (isInternetExplorer()) {
 		$.each($('[type="date"][class*="wpcf7-date"]'), function() {
 			$(this).datepicker({
 				autoclose : true,
