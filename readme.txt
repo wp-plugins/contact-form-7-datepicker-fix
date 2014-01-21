@@ -11,8 +11,8 @@ Add the jQuery Datepicker and Spinner functionality to your Contact Form 7
 
 == Description ==
 
-You are using the Contact Forms 7 Plugin and are angy about the none IE > 7 Support?
-No Problem. With this Plugin u will have the normal Datepicker & Number Spinner from jQuery in your Internet Explorers.
+You are using the Contact Forms 7 Plugin and are angy about the none HTML 5 Support?
+No Problem. With this Plugin u will have the normal Datepicker & Number Spinner from jQuery in your Internet Explorers and other none HTML5 browsers.
 
 If you have Questions or Feature Request, feel free and contact me.
 
