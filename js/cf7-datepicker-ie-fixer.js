@@ -84,9 +84,7 @@ jQuery(document).ready(function($) {
     };
 
     net.touchdata.datepickerFix.prototype.doMagic = function() {
-        console.log(this.supportHtml5);
-        console.dir(this.supportHtml5);
-        var that = this;
+         var that = this;
         if (this.isInternetExplorer() || !this.supportHtml5.date) {
             $.each($('[type="date"][class*="wpcf7-date"]'), function() {
                 $(this).datepicker({
