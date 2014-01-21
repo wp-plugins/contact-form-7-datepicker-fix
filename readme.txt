@@ -35,6 +35,11 @@ none
 
 == Changelog ==
 
+Feature 2.5:
+
+#1 added range for month and year
+#http://wordpress.org/support/topic/contact-form-7-ie-datepicker/page/2?replies=36#post-5135692
+
 Bugs 2.4:
 #1 remove window.log
 #2 set dateFormat

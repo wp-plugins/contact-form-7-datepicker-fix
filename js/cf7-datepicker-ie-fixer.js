@@ -89,7 +89,10 @@ jQuery(document).ready(function($) {
             $.each($('[type="date"][class*="wpcf7-date"]'), function() {
                 $(this).datepicker({
                     autoclose: true,
-                    dateFormat: 'yy-mm-dd'
+                    dateFormat: 'yy-mm-dd',
+                    changeMonth: true, 
+                    changeYear: true,
+                    yearRange: "-100:+0"
                 });
             });
         }
