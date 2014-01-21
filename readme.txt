@@ -35,7 +35,11 @@ none
 
 == Changelog ==
 
-Bug 2.3:
+Bugs 2.4:
+#1 remove window.log
+#2 set dateFormat
+
+Bugs 2.3:
 #1 added check for html5 support
 #2 check if it is new IE
 

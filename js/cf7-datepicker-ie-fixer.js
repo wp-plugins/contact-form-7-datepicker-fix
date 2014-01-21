@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
             $.each($('[type="date"][class*="wpcf7-date"]'), function() {
                 $(this).datepicker({
                     autoclose: true,
-                    dateFormat: 'dd.mm.yy'
+                    dateFormat: 'yy-mm-dd'
                 });
             });
         }
@@ -102,7 +102,7 @@ jQuery(document).ready(function($) {
                 that.addSpinnerToObject($(this));
             });
         }
-    }
+    };
 
 
     var datepickerFix = new net.touchdata.datepickerFix();
