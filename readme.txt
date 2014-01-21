@@ -2,7 +2,7 @@
 Contributors: Hackbard23
 Tags: contact form, contact form 7, contact, form, number, spinner, datepicker
 Requires at least: 3.5
-Tested up to: 3.6
+Tested up to: 3.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Stable tag: trunk
@@ -34,6 +34,10 @@ none
 none
 
 == Changelog ==
+
+Bug 2.3:
+#1 added check for html5 support
+#2 check if it is new IE
 
 Feature 2.0:
 #1 Added the Spinner function for Contact Form 7 number Fields 
