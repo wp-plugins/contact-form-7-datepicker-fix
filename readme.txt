@@ -35,6 +35,12 @@ none
 
 == Changelog ==
 
+Feature 2.6
+
+#1 using min & max for datepicker
+#2 using min & max for numberpicker
+
+
 Feature 2.5:
 
 #1 added range for month and year

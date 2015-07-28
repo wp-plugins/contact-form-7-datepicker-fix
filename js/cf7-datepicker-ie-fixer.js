@@ -87,12 +87,24 @@ jQuery(document).ready(function($) {
          var that = this;
         if (this.isInternetExplorer() || !this.supportHtml5.date) {
             $.each($('[type="date"][class*="wpcf7-date"]'), function() {
+                var min = "-100";
+                var max = "+0"
+                var min_v =$(this).attr('min');
+                var max_v =$(this).attr('max');
+                if (min_v !== undefined && min_v !== "undefined") {
+                    var t = min_v.split("-");
+                    min = t[0];
+                }
+                if (max_v !== undefined && max_v !== "undefined") {
+                    var t = max_v.split("-");
+                    max = t[0];
+                }
                 $(this).datepicker({
                     autoclose: true,
                     dateFormat: 'yy-mm-dd',
                     changeMonth: true, 
                     changeYear: true,
-                    yearRange: "-100:+0"
+                    yearRange: min +":" + max
                 });
             });
         }
@@ -106,9 +118,6 @@ jQuery(document).ready(function($) {
             });
         }
     };
-
-
     var datepickerFix = new net.touchdata.datepickerFix();
     datepickerFix.doMagic();
-
 });
